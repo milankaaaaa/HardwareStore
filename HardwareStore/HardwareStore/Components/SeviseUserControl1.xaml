@@ -5,11 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:HardwareStore.Components"
       mc:Ignorable="d" 
-      d:DesignHeight="200" d:DesignWidth="750"
+      d:DesignHeight="400" d:DesignWidth="200"
       Title="SeviseUserControl1">
 
 
-    <Border BorderBrush ="#FF61B4DC"  BorderThickness="2" Margin="2 5" Width="750">
+    <Border BorderBrush ="#FF61B4DC"  BorderThickness="2" Margin="0 0" Width="200">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition />
@@ -18,21 +18,38 @@
                     <RowDefinition />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="8*"/>
-                    <ColumnDefinition Width="23*"/>
+                    <ColumnDefinition Width="100*"/>
+                    <ColumnDefinition Width="0*"/>
                 </Grid.ColumnDefinitions>
-            <Image Source="C:\Users\222112\source\repos\HardwareStore\HardwareStore\HardwareStore\MyPages\imagethree.jpg" Grid.RowSpan="4" x:Name="Servise"></Image>
-                <TextBlock x:Name="TittleTb" Grid.Row="0" Grid.Column="1"></TextBlock>
-                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+            <Image Source="\MyPages\imagethree.jpg" Grid.RowSpan="4" Height="450"  Margin="0 0 0 90" x:Name="Servise"></Image>
+            <TextBlock x:Name="TittleTb" Grid.Row="0" Grid.Column="0"></TextBlock>
+                <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
                     <TextBlock x:Name="CostTb" Visibility="{Binding CostVisibility}" TextDecorations="Strikethrough"></TextBlock>
-                    <TextBlock x:Name="CostTimeTb" Grid.Row="1" Grid.Column="1"></TextBlock>
+                    <TextBlock x:Name="CostTimeTb" Grid.Row="0" Grid.Column="0"></TextBlock>
                 </StackPanel>
-                <TextBlock x:Name="DiscountTb" Grid.Row="2" Grid.Column="1"></TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="0"></TextBlock>
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                <TextBlock Visibility="{Binding CostVisibility}" TextDecorations="Strikethrough"></TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="0"></TextBlock>
+            </StackPanel>
+            
+            <TextBlock Grid.Row="0" Grid.Column="0"></TextBlock>
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                <TextBlock Visibility="{Binding CostVisibility}" TextDecorations="Strikethrough"></TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="0"></TextBlock>
+            </StackPanel>
+            <TextBlock x:Name="DiscountTb" Grid.Row="1" Grid.Column="1"></TextBlock>
                 <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1">
-                <Button x:Name="CreateBtn" Background ="#FFC6EDFF"  Foreground="#FF61B4DC" BorderBrush="#FF61B4DC">Купить</Button>
+                <Button x:Name="CreateBtn" Background ="#FFC6EDFF" Foreground="#FF61B4DC" BorderBrush="#FF61B4DC">Купить</Button>
                   
                 </StackPanel>
-            </Grid>
+            <StackPanel Orientation="Horizontal" Grid.Row="3">
+                <Image Source="\MyPages\imgbin-online-shopping-retail-e-commerce-shopping-cart-shopping-cart-4hcFEXLz4sPMZhgDseBAPEBdz (1).jpg" Height="40" Margin="5 0"></Image>
+                <Image Source="\MyPages\love_90987.png" Height="20" Margin="5 0"></Image>
+                <Image Source="\MyPages\вотэто.png" Height="20" Margin="5 0"></Image>
+            </StackPanel>
+       
+        </Grid>
         </Border>
     
 </Page>

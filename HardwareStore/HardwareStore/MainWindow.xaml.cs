@@ -36,4 +36,4 @@ namespace HardwareStore
             MainFrame.Navigate(new ServiseListPage1());
         }
     }
-}
+} 

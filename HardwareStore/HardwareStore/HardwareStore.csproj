@@ -160,6 +160,11 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="MyPages\вотэто.png" />
+    <Resource Include="MyPages\png-clipart-chart-computer-icons-finance-computer-angle-text.png" />
+    <Resource Include="MyPages\love_90987.png" />
+    <Resource Include="MyPages\20-203340_small-heart-clip-art-gray.png" />
+    <Resource Include="MyPages\imgbin-online-shopping-retail-e-commerce-shopping-cart-shopping-cart-4hcFEXLz4sPMZhgDseBAPEBdz %281%29.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="MyPages\png-clipart-logo-blue-circle-circle-blue-photography-transformed.png" />

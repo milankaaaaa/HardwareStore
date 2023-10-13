@@ -12,13 +12,13 @@
             <RowDefinition Height="287*"/>
             <RowDefinition Height="60*"/>
         </Grid.RowDefinitions>
-        <Rectangle Fill ="#FFC1EBFF" ></Rectangle>
-        <Rectangle Fill ="#FFC1EBFF"  Grid.Row="2"></Rectangle>
+        <Rectangle Fill ="#FF55638E" ></Rectangle>
+        <Rectangle Fill ="#FF55638E"  Grid.Row="2"></Rectangle>
         <Image Source ="C:\Users\222112\source\repos\HardwareStore\HardwareStore\HardwareStore\MyPages\png-clipart-logo-blue-circle-circle-blue-photography-transformed.png"></Image>
         <TextBlock Grid.Column="1"></TextBlock>
         <StackPanel  HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="2">
-            <Button x:Name="ygj" Background="#FF84D7FF" Foreground="White" BorderBrush="#FF61B4DC">регистрация</Button>
-            <Button x:Name="gsh" Background="#FF84D7FF" Foreground="White" BorderBrush="#FF61B4DC">вход</Button>
+            <Button x:Name="ygj" Background="#FF7999CC" Foreground="White" BorderBrush="#FF59647F">регистрация</Button>
+            <Button x:Name="gsh" Background="#FF7999CC" Foreground="White" BorderBrush="#FF59647F">вход</Button>
         </StackPanel>
         <Frame x:Name="MainFrame" Grid.Row="1"></Frame>
 
