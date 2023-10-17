@@ -16,19 +16,17 @@ using System.Windows.Shapes;
 namespace HardwareStore.Components
 {
     /// <summary>
-    /// Логика взаимодействия для SeviseUserControl1.xaml
+    /// Логика взаимодействия для ProductUserControl.xaml
     /// </summary>
-    public partial class SeviseUserControl1 
+    public partial class ProductUserControl : UserControl
     {
-        public SeviseUserControl1(Image image, string title, decimal cost, string costTime, string discount, Visibility costVisibility)
+        public ProductUserControl(Image image, string title, decimal cost, string discount)
         {
             InitializeComponent();
             //ServaseIng = Image;
             TittleTb.Text = title;
-            CostTimeTb.Text = cost.ToString(":0");
             DiscountTb.Text = discount;
             CostTb.Text = cost.ToString();
-            CostTb.Visibility = costVisibility;
 
         }
     }

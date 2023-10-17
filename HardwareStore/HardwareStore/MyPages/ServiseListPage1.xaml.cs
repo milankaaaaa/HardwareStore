@@ -24,10 +24,10 @@ namespace HardwareStore.MyPages
         public ServiseListPage1()
         {
             InitializeComponent();
-            var services = App.db.Sevice.ToList();
+            var services = App.db.Product.ToList();
             foreach (var service in services)
             {
-                ServiseWrapPanel.Children.Add(new SeviseUserControl1(new Image(), service.Title, service.Cost, service.CostTime.ToString(), service.Discount.ToString(), service.CostVisibility));
+                ServiseWrapPanel.Children.Add(new ProductUserControl(new Image(), service.Title, service.Cost, service.Discount.ToString()));
             }
         }
       

@@ -64,7 +64,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Components\SeviseUserControl1.xaml">
+    <Page Include="Components\ProductUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -97,8 +97,8 @@
     <Compile Include="Components\Product.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Components\SeviseUserControl1.xaml.cs">
-      <DependentUpon>SeviseUserControl1.xaml</DependentUpon>
+    <Compile Include="Components\ProductUserControl.xaml.cs">
+      <DependentUpon>ProductUserControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\sysdiagrams.cs">
       <DependentUpon>Model1.tt</DependentUpon>
