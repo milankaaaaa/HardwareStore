@@ -21,8 +21,5 @@
             <Button x:Name="gsh" Background="#FF7999CC" Foreground="White" BorderBrush="#FF59647F">вход</Button>
         </StackPanel>
         <Frame x:Name="MainFrame" Grid.Row="1"></Frame>
-
-
-    
     </Grid>
 </Window>
